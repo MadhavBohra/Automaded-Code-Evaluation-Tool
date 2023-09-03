@@ -1,0 +1,14 @@
+Please help me understand this code, and list all the errors and mistakes in it.
+The information regarding the code is as follows :
+In the main function, you already have code to create array A  of size n and store the user's input in it. Along with that a pointer of integer type is created. 
+Thereafter in the main function, we pass the created array A  and n in the function minarray(int A[], int n) and store the address returned by the function in G.   Your task is to code the function int* minarray(int A[], int n) in f1.c  which returns the address of the array that contains the nearest smaller element A[j] for each element A[i] in the array, where j is an index smaller than i. If there is no such element for A[i], then  -1 is the result for A[i].  
+Your code should satisfy the following sample. 
+ 
+Sample 1: 
+Enter the size of the array: 5	
+Enter the elements of the array: 1 3 2 4 5
+The array containing nearest smaller elements: -1 1 1 2 4
+
+Check the logic of finding nearest smaller element for each element.
+Further, also check if there are errors in the code.
+Are you ready for the code I am going to provide you?

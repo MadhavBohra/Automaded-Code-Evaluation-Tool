@@ -1,0 +1,3 @@
+
+
+void pattern(int n);

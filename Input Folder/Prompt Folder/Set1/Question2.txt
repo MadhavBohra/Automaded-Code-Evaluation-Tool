@@ -1,0 +1,19 @@
+Please help me understand this code, and list all the errors and mistakes in it.
+The information regarding the code is as follows :
+In the main function, you already have code to prompt the user to enter the sizes of two linked lists, size1 and size2. Then, using two for loops, you take input from the user one by one to create the two linked lists using insertnodeEnd function. After the loops, you will have two fully created linked lists. Following that, you invoke the function printCommonElements, passing the heads of the two linked lists as arguments. This function returns the head of a new linked lists which contains all the common elements present in both linked lists. 
+  In the main function following function are called:  insertNodeEnd(head, data) and printCommonelements(head1, head2). Your task is to code the following functions struct Node* insertNodeEnd(struct Node* head, int data)  and  struct node * printCommonElements(struct Node* head1, struct Node* head2) in f2.c to satisfy the following the sample.
+Sample 1:
+Enter the size of list 1 and list 2: 3 4
+Enter the elements of list 1: 1 2 3
+Enter the elements of list 2: 2 3 4 5
+List 1: 1 2 3
+List 2: 2 3 4 5
+New Link list created of common elements: 2 3
+
+a). Check the logic of finding common elements. If it is correct, but still there is not a correct output
+ 
+b). Check whether they are returning a head of the new linked list which contains some  common elements, but not all the common elements
+
+c). Check for the syntax errors
+
+Are you ready for the code I am going to provide you?

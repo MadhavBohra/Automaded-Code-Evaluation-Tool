@@ -1,0 +1,28 @@
+Please help me understand this code, and list all the errors and mistakes in it.
+The information regarding the code is as follows :
+In the main function, you already have code to prompt the user to enter the sizes of two linked lists, size1 and size2. Then, using two for loops, you take input from the user one by one to create the two linked lists using insertnodeEnd function. After the loops, you will have two fully created linked lists. Following that, you invoke the function printCommonElements, passing the heads of the two linked lists as arguments. This function returns the head of a new linked lists which contains all the common elements present in both linked lists. 
+  In the main function following function are called:  insertNodeEnd(head, data) and printCommonelements(head1, head2). Your task is to code the following functions struct Node* insertNodeEnd(struct Node* head, int data)  and  struct node * printCommonElements(struct Node* head1, struct Node* head2) in f2.c to satisfy the following the sample.
+Sample 1:
+Enter the size of list 1 and list 2: 3 4
+Enter the elements of list 1: 1 2 3
+Enter the elements of list 2: 2 3 4 5
+List 1: 1 2 3
+List 2: 2 3 4 5
+New Link list created of common elements: 2 3
+In the main function, you already have code to prompt the user to enter the size of  linked lists, size. Then, using for loop, you take input from the user one by one to create the linked list using insertnodeEnd function. After the loop, you will have fully created linked list. Following that, you invoke the function reverseLinkedList, passing the head of the linked lists as an argument. This function returns the reverse the linked lists and returns the head of the link list. 
+
+ In the main function following function are called:  insertNodeEnd(head, data) and reverseLinkedList (head). Your task is to code the following functions struct Node* insertNodeEnd(struct Node* head, int data) and  struct Node* reverseLinkedList(struct Node* head) in f2.c to satisfy the following the sample.
+
+Sample 1:
+Enter the size of the list: 5
+Enter the elements of the list: 1 2 3 4 5
+Original list: 1 2 3 4 5
+Reversed linked list: 5 4 3 2 1
+
+Check whether if  three pointers are used to reverse the linked list and  the logic is based on only three pointers to reverse the given linked list.
+     
+If they are using more than three pointers and trying to build the logic to reverse the given linked list-- check the logic
+
+Further, Check for any errors
+
+Are you ready for the code I am going to provide you?

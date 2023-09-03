@@ -1,0 +1,14 @@
+Please help me understand this code, and list all the errors and mistakes in it.
+The information regarding the code is as follows :
+In the main function, you already have code to create two arrays arr1 and arr2 of size1 and size2, respectively and store the user's input in both the arrays.  The input will be given in sorted order for both the arrays. 
+In the main function, we pass both arrays and their sizes in the function findMedian(arr1, size1, arr2, size2). Your task is to code code the int findMedian(int arr1[], int size1, int arr2[], int size2) in f1.c which returns the median of the combined sorted array.  For example if arr1=[1,4,5] and arr2=[2,3,6,7] then the median of combined sorted array [1,2,3,4,5,6,7] is 4. 
+Your code should satisfy the following sample. 
+  Sample 1: 
+Enter the size of the first array: 3
+Enter the elements of the first array (in sorted order): 0 1 6
+Enter the size of the second array: 2
+Enter the elements of the second array (in sorted order): 3 5
+Median of the two arrays: 3
+Also Check the logic of finding median of two arrays
+Further, also check if there are errors in the code.
+Are you ready for the code I am going to provide you?

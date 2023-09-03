@@ -1,0 +1,21 @@
+Please help me understand this code, and list all the errors and mistakes in it.
+The information regarding the code is as follows :
+In the main function, you already have code to prompt the user to enter the size of  linked lists, size. Then, using for loop, you take input from the user one by one to create the linked list using insertnodeEnd function. After the loop, you will have fully created linked list. Following that, you invoke the function printMiddleElement, passing the head of the linked lists as an argument. This function prints the middle element of the linked lists. Note that you can traverse the link list only once in the printMiddleElement function. You will be awarded ZERO marks if you traversed the linked list more than one time. 
+In the main function following function are called:  insertNodeEnd(head, data), printList(head) and printMiddleElement(head). Your task is to code the following functions struct Node* insertNodeEnd(struct Node* head, int data) and  void printMiddleElement (struct Node* head) in f2.c to satisfy the following the sample.
+
+Sample 1:
+Enter the size of the list: 5
+Enter the elements of the list: 1 2 3 4 5
+Original list: 1 2 3 4 5
+Middle element: 3
+
+a).  Check whether they are traversing linked list only once or not. ---- traversing only once but not a correct output-
+                       1)  logic is correct but the issue with output  
+                       2) logic is not correct to find middle element
+ 
+    b). if  traversed more than once
+    
+    c). if they are using an array to store the address and then returning the middle element using it but stillthe output is not correct
+
+d). Check for the remaining errors
+Are you ready for the code I am going to provide you?

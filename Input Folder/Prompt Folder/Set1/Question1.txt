@@ -1,0 +1,9 @@
+Please help me understand this code, and list all the errors and mistakes in it.
+The information regarding the code is as follows :
+You will be given a function of rotateArray(Arr, n, rotateBy).   Your task is to check the code of function void rotateArray(int arr[], int n, int rotateBy), the function is to rotate the Arr by a given number of positions, i.e. rotateBy.  
+The type of rotations depends on the integer given by the user, i.e., rotateBy. If a given number is positive, then rotate the array in clockwise order by the given number. Otherwise, rotate the array in anti-clockwise order by the given number.
+Please Check the nature of rotation based on an integer.  
+If an integer is positive, check the logic to rotate clock-wise is present or not. 
+If an integer is negative, check whether the logic to rotate anti-clockwise is present or not.
+Further, also check if there are errors in the code.
+Are you ready for the code I am going to provide you?
